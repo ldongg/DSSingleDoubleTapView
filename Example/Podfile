@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSSingleDoubleTapView_Example' do
+  pod 'DSSingleDoubleTapView', :path => '../'
+
+  target 'DSSingleDoubleTapView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
